@@ -1,0 +1,1 @@
+const post = module.exports = {}

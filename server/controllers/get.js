@@ -1,0 +1,1 @@
+const get = module.exports = {}
