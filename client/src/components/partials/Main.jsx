@@ -1,13 +1,13 @@
-import React, { PureComponent } from 'React'
+import { React, PureComponent } from 'react'
 import { Button } from '../atoms'
 
 class Main extends PureComponent {
   render () {
-    const isLoggedIn = this.props.isLoggedIn()
     return (
       <main>
-        {!isLoggedIn &&
-          <React.Fragment>
+        Test
+        {this.props.isAuthed &&
+          <>
             <Button
               title="Login"
               disabled={false}
@@ -16,7 +16,7 @@ class Main extends PureComponent {
               title="Signup"
               disabled={false}
             />
-          </React.Fragment>
+          </>
         }
       </main>
     )

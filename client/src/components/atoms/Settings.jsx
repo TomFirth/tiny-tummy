@@ -1,17 +1,16 @@
-import React, { PureComponent } from 'React'
+import React, { PureComponent } from 'react'
 
 class Settings extends PureComponent {
   render () {
     return (
-        <React.Fragment>
-          {/* button - disabled if not logged in */}
-          {/* 
-            settings menu
-            - profile
-            - manages users
-            - logout
-          */}
-        </React.Fragment>
+      <>
+        {/* 
+          settings menu
+          - profile
+          - manages users
+          - logout
+        */}
+      </>
     )
   }
 }
