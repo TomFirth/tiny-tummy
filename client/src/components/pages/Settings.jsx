@@ -1,15 +1,13 @@
-import React, { PureComponent } from 'react'
+import { React, PureComponent } from 'react'
 
 class Settings extends PureComponent {
   render () {
     return (
       <>
-        {/* 
-          settings menu
+        {/* settings menu
           - profile
           - manages users
-          - logout
-        */}
+          - logout */}
       </>
     )
   }
